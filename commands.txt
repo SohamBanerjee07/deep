@@ -1,0 +1,82 @@
+asg7:
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install nginx
+nginx -v
+sudo chmod 777 /var/www/html
+
+asg8:
+git init
+git config --global user.email "your_email@example.com"
+git add .
+git commit -m "Initial commit"
+git remote add origin "https://github.com/yourusername/MYNEWREPO.git"
+git push -f origin master
+
+git clone "https://github.com/sudip7407/New-Repo1.git"
+ls
+cd deep
+ls
+
+asg9:
+sudo apt-get update && sudo apt-get upgrade
+Type y when prompted.
+
+sudo apt-get install nginx
+Type y when prompted.
+
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install nodejs
+
+git clone https://github.com/itsmesneha/MYNEWREPO.git
+
+ Username: GitHub email
+ Password: GitHub token (not your password)
+
+cd MYNEWREPO
+
+npm install
+node index.js
+
+http://<your-ec2-public-ip>:4000
+
+asg 10:
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/itsmesneha/SNEHAREPO
+cd SNEHAREPO
+npm install
+node index.js
+
+asg 11:
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/<your-username>/<your-repo-name>
+cd <your-repo-name>
+npm install
+node index.js
+
+sudo nano infi1.sh
+Add:
+#!/bin/bash
+while true
+do
+echo "Looping forever"
+# Additional commands can be added here
+done
+
+o Save the file, then run:
+o sudo chmod +x infi1.sh
+o ./infi1.sh
+
